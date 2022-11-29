@@ -75,7 +75,7 @@ app.post(`/see`, async(req,res) => {
        console.log(err)
     }
 })
-connectionModuler.createMongooseConnection("mongodb+srv://aayan:aayan@cluster0.hqv8y.mongodb.net/?retryWrites=true&w=majority")
+connectionModuler.createMongooseConnection("")
 app.listen(4000,() => {
     console.log('Backend is ready to serve')
 })
